@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-plus-one\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-14 10:35-0800\n"
+"PO-Revision-Date: 2011-10-27 15:08-0800\n"
+"Last-Translator: Mike Arias <mikea@inmotionhosting.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: MEXICO\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp-plus-one-widget.php:54
+msgid "Title:"
+msgstr "Título:"
+
+#: wp-plus-one-widget.php:71
+#: wp-plus-one.php:74
+msgid "Show the +1 count with the button"
+msgstr "Mostrar el conteo +1 con el botón"
+
+#: wp-plus-one.php:19
+#: wp-plus-one.php:26
+msgid "Google +1 Button Settings"
+msgstr "Configuraciones del botón +1 de Google"
+
+#: wp-plus-one.php:19
+msgid "Google +1 Button"
+msgstr "Botón de +1 de Google"
+
+#: wp-plus-one.php:30
+msgid "+1 Button Style"
+msgstr "Estilo del botón de +1"
+
+#: wp-plus-one.php:34
+msgid "Standard"
+msgstr "Estándar"
+
+#: wp-plus-one.php:39
+msgid "Small"
+msgstr "Pequeño"
+
+#: wp-plus-one.php:44
+msgid "Medium"
+msgstr "Mediano"
+
+#: wp-plus-one.php:49
+msgid "Tall"
+msgstr "Alto"
+
+#: wp-plus-one.php:53
+msgid "+1 Button Position"
+msgstr "Posición del botón +1"
+
+#: wp-plus-one.php:55
+msgid "Top of post"
+msgstr "Al principio del post"
+
+#: wp-plus-one.php:57
+#: wp-plus-one.php:65
+msgid "Left (float)"
+msgstr "Izquierda (float)"
+
+#: wp-plus-one.php:58
+#: wp-plus-one.php:66
+msgid "Right (float)"
+msgstr "Derecha (float)"
+
+#: wp-plus-one.php:59
+#: wp-plus-one.php:67
+msgid "No Float"
+msgstr "No Float"
+
+#: wp-plus-one.php:60
+#: wp-plus-one.php:68
+msgid "None"
+msgstr "Ninguno"
+
+#: wp-plus-one.php:63
+msgid "Bottom of post"
+msgstr "Al final del post"
+
+#: wp-plus-one.php:71
+msgid "+1 Button Count"
+msgstr "El conteo del botón de +1"
+
+#: wp-plus-one.php:77
+msgid "+1 Button Visibility"
+msgstr "Visibilidad del botón +1"
+
+#: wp-plus-one.php:80
+msgid "Show the +1 button on posts"
+msgstr "Mostrar el botón de +1 en posts"
+
+#: wp-plus-one.php:82
+msgid "Show the +1 button on pages"
+msgstr "Mostrar el botón de +1 en páginas"
+
+#: wp-plus-one.php:84
+msgid "Show the +1 button on attachments (like images)"
+msgstr "Mostrar del boton de +1 en archivos anexos (como imágenes)"
+
+#: wp-plus-one.php:96
+msgid "Show the +1 button on "
+msgstr "Mostrar el botón de +1 en"
+
+#: wp-plus-one.php:105
+msgid "Hide the +1 button on the homepage"
+msgstr "Ocultar el botón de +1 en la página principal"
+
+#: wp-plus-one.php:107
+msgid "Hide the +1 button on excerpts"
+msgstr "Ocultar el botón de +1 en extractos"
+
+#: wp-plus-one.php:110
+msgid "+1 Redirect on Click"
+msgstr "La redirección +1 al hacer clic"
+
+#: wp-plus-one.php:112
+msgid "URL to redirect to on-click "
+msgstr "Redireccionar a esta URL al hacer clic"
+
+#: wp-plus-one.php:116
+msgid "Input a URL if you would like the user to be redirected after clicking the +1 button.  This can be disabled / modified per post on the post edit page."
+msgstr "Ingresa una URL si deseas que el usuario sea redireccionado después de hacer clic en el botón +1. Se puede deshabilitar / modificar para cada post en la página editar entradas"
+
+#: wp-plus-one.php:119
+msgid "+1 Button Custom CSS"
+msgstr "CSS personalizado del botón de +1"
+
+#: wp-plus-one.php:124
+msgid "+1 Button JavaScript"
+msgstr "Botón de +1 JavaScript"
+
+#: wp-plus-one.php:127
+msgid "Use the (faster) asynchronous JavaScript"
+msgstr "Utilizar el código JavaScript asíncrono (más rápido)"
+
+#: wp-plus-one.php:136
+msgid "WordPress Hook:"
+msgstr "WordPress Hook:"
+
+#: wp-plus-one.php:136
+msgid "If you selected <em>None</em> as the +1 Button position or would like to add additional +1 Buttons to your theme, please use the <code>&lt;?php do_action( 'wp_plus_one_button', $url, $style, $css, $count, $redirect); ?&gt;</code> hook in your plugin or theme."
+msgstr "Si has elegido <em>Ninguno</em> para la posición del botón +1 o querrías añadir botones de +1 adicionales a su tema, favor de utilizar el <code>&lt;?php do_action( 'wp_plus_one_button', $url, $style, $css, $count, $redirect); ?&gt;</code> hook en el plugin o tema."
+
+#: wp-plus-one.php:139
+msgid "Hook Options:"
+msgstr "Opciones de Hook"
+
+#: wp-plus-one.php:139
+msgid "<code>$url</code> (optional) is the URL to +1 (will be <code>get_permalink()</code> if blank), <code>$style</code> (optional) is the button style (standard, small, medium, tall), <code>$css</code> (optional) is any extra CSS to add to the button <code>DIV</code>, <code>$count</code> (optional) true/false whether or not to show the +1 count (shown if true), and <code>$redirect</code> (optional) a URL to redirect the user to after clicking the +1 button."
+msgstr "<code>$url</code> (opcional) es la URL a dar un +1 (será <code>get_permalink()</code> si está en blanco), <code>$style</code> (opcional) es el estilo del botón (estándar, pequeño, mediano, alto), <code>$css</code> (opcional) es CSS adicional para añadir al botón <code>DIV</code>, <code>$count</code> (opcional) verdadero/falso se indica si el conteo de +1 está mostrado u ocultado (mostrado si es verdadero), y <code>$redirect</code> (opcional) redireccionar el usuario a esta URL después de hacer clic en el botón +1."
+
+#: wp-plus-one.php:203
+msgid "Google +1 Button Settings Saved"
+msgstr "Se han guardado las configuraciones del botón +1 de Google"
+
+#: wp-plus-one.php:359
+#: wp-plus-one.php:361
+#: wp-plus-one.php:372
+msgid "Google +1 Settings"
+msgstr "Configuraciones del +1 de Google"
+
+#: wp-plus-one.php:393
+msgid "Show the +1 button on this post."
+msgstr "Mostrar el botón del +1 en este post."
+
+#: wp-plus-one.php:394
+msgid "Disable the +1 button redirect on click."
+msgstr "Deshabilitar la redirección al hacer clic en botón de +1."
+
+#: wp-plus-one.php:395
+msgid "Redirect on click to (defaults to global setting) "
+msgstr "Redireccionar al hacer clic a (ajuste global por defalto)"
+
+#: wp-plus-one.php:423
+#: wp-plus-one.php:430
+msgid "Settings"
+msgstr "Configuración"
+
+#: wp-plus-one.php:431
+msgid "Support"
+msgstr "Soporte"
+
